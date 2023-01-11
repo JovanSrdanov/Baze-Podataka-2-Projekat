@@ -4,5 +4,5 @@ Fakultet tehničkih nauka
 Računarstvo i automatika  
 Primenjene računarske nauke i informatika  
 
-RA 145/2019 - Jovan Srdanov 
+RA 145/2019 - Jovan Srdanov   
 Tema: Studentska Menza
