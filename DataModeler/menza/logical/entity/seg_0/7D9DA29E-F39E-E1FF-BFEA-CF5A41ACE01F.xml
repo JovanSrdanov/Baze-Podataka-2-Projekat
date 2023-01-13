@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7D9DA29E-F39E-E1FF-BFEA-CF5A41ACE01F" name="Drzava">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 11:37:21 UTC</createdTime>
+<ownerDesignName>menza</ownerDesignName>
+<engineerTo>
+<item key="D2A6AB45-B9F5-FB67-ED2C-33601EF6BFE6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdDrz" id="A8D823AE-07DF-B3B4-9EEA-B9B5B9BDD470">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 11:37:53 UTC</createdTime>
+<ownerDesignName>menza</ownerDesignName>
+<engineerTo>
+<item key="D2A6AB45-B9F5-FB67-ED2C-33601EF6BFE6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NazDrz" id="3434684B-F7E7-2934-CF95-CBC73C8BB824">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 11:37:54 UTC</createdTime>
+<ownerDesignName>menza</ownerDesignName>
+<engineerTo>
+<item key="D2A6AB45-B9F5-FB67-ED2C-33601EF6BFE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PozDrz" id="88827371-A678-236E-B0BD-08C88188CCC2">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 11:37:54 UTC</createdTime>
+<ownerDesignName>menza</ownerDesignName>
+<engineerTo>
+<item key="D2A6AB45-B9F5-FB67-ED2C-33601EF6BFE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C6C3F4EF-2CC2-1C2C-9681-F0BA3878800E" name="Drzava PK">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 11:37:55 UTC</createdTime>
+<ownerDesignName>menza</ownerDesignName>
+<engineerTo>
+<item key="D2A6AB45-B9F5-FB67-ED2C-33601EF6BFE6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A8D823AE-07DF-B3B4-9EEA-B9B5B9BDD470</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

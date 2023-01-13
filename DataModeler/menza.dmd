@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="menza" id="6DDADE0C-FF21-4EEA-8953-DE53B01AB47B" version="3.5">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 11:37:01 UTC</createdTime>
+<ownerDesignName>menza</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>6DDADE0C-FF21-4EEA-8953-DE53B01AB47B</designId>
+</OSDM_Design>
