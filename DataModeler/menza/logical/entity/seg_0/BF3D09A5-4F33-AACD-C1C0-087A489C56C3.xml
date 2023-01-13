@@ -17,7 +17,6 @@
 <normalForm>Third</normalForm>
 <attributeInherType>All atributes</attributeInherType>
 <generateDiscrimColumn>true</generateDiscrimColumn>
-<discriminatorAttributeID>34C94740-7C44-7994-BDA0-1E40B6D4D52E</discriminatorAttributeID>
 <completeSubtypes>true</completeSubtypes>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="IdOsb" id="08301F34-134A-1C31-45F6-E3FD68E4462F">
@@ -85,19 +84,6 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="TipOsobe" id="34C94740-7C44-7994-BDA0-1E40B6D4D52E">
-<createdBy>Jana Jovan</createdBy>
-<createdTime>2023-01-13 19:42:34 UTC</createdTime>
-<ownerDesignName>menza</ownerDesignName>
-<engineerTo>
-<item key="D2A6AB45-B9F5-FB67-ED2C-33601EF6BFE6" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<domain>8093CB40-D89B-A563-82FE-3360CAA412D2</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="IdAdr" id="AE474C2E-FC3B-131F-01B9-73CC2376F0EC">
