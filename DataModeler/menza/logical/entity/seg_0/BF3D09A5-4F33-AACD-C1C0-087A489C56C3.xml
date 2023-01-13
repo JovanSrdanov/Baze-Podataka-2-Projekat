@@ -16,6 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributeInherType>All atributes</attributeInherType>
+<generateDiscrimColumn>true</generateDiscrimColumn>
 <completeSubtypes>true</completeSubtypes>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="IdOsb" id="08301F34-134A-1C31-45F6-E3FD68E4462F">

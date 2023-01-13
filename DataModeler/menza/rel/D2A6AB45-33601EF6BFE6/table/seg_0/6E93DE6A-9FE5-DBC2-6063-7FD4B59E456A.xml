@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6E93DE6A-9FE5-DBC2-6063-7FD4B59E456A" name="TipKuvara">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 22:00:05 UTC</createdTime>
+<generatorID>EB527BB8-8A2B-BAE6-59FB-0409D5357C33</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdTipKuv" id="830EDAFE-D119-7954-43F9-8C26959325F5">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 22:00:05 UTC</createdTime>
+<generatorID>CE8E3627-8DB7-258B-2661-A795889901F6</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NazTip" id="003F0E23-F092-C620-F759-C0DF97FF8687">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 22:00:05 UTC</createdTime>
+<generatorID>96A314B6-56C2-5650-21A1-0FB47461677C</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="329C6E3A-9E64-1B10-7262-8B011BA8A940" name="TipKuvara_PK">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 22:00:05 UTC</createdTime>
+<generatorID>B6C62EF3-55A6-ABFB-2E62-35651D2F1E9D</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="830EDAFE-D119-7954-43F9-8C26959325F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

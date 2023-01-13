@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E095D18E-5DC3-EB20-E36C-BBC76AF99E54" name="Narudzbina">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 22:00:05 UTC</createdTime>
+<generatorID>41E4BA8D-8AA3-F8FD-B996-EDFDB1AAB9A6</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdNar" id="004FC7DB-0B1E-4AEC-1BCF-AA465CAEBB95">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 22:00:05 UTC</createdTime>
+<generatorID>942E9CF8-9401-C363-9C80-07BFE50A997C</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DatumZaKad" id="14015899-4327-439B-ADFA-8653903D5D51">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 22:00:05 UTC</createdTime>
+<generatorID>62017AFB-43C1-3450-056E-83B8275EC5A9</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DostavljacHrane_IdDos" id="E66F76C5-E359-088F-C4D7-5B1E9F260143">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 22:00:05 UTC</createdTime>
+<generatorID>8F437AE3-B40C-39FD-8FFB-81251AD59F36</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B66C5AE9-99A9-B391-6685-1DEDFE1324AF" referredColumn="08777EFB-F301-1A14-728A-C7498E676391"/>
+</associations>
+</Column>
+<Column name="Upravlja_IdRes" id="4B72425C-A83F-0FFC-2FB3-DCD0938D6A36">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 22:00:05 UTC</createdTime>
+<generatorID>A05BE8DB-7065-3A9B-4298-7215AF4B7307</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C5E5E125-B872-220F-118A-F1C8987DFB0D" referredColumn="44E40183-B296-5E1E-7CE4-65C5EC68EE0E"/>
+</associations>
+</Column>
+<Column name="Upravlja_IdOsb" id="986E12FF-91C9-9043-1CD8-075B3599A5C5">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 22:00:05 UTC</createdTime>
+<generatorID>B6FE1792-69DE-38F9-AE58-2CDE436C9712</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C5E5E125-B872-220F-118A-F1C8987DFB0D" referredColumn="0B1EF2AD-97FC-BE1E-5084-95E6C4699848"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F71BA2AC-0FB2-D25D-066D-22D75BFEBA3B" name="Narudzbina_PK">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 22:00:05 UTC</createdTime>
+<generatorID>895C0C26-D7BF-E3A4-2B78-CB8441838D55</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="004FC7DB-0B1E-4AEC-1BCF-AA465CAEBB95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="640F1499-15C5-5683-F9FA-608CC27BB2CD" name="Narudzbina_DostavljacHrane_FK">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 22:00:05 UTC</createdTime>
+<generatorID>90F6F210-C80E-ED76-840B-07E468A02F77</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E66F76C5-E359-088F-C4D7-5B1E9F260143"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0D96023-FBC1-99E9-A450-D4A2BD2215E8" name="Narudzbina_Upravlja_FK">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 22:00:05 UTC</createdTime>
+<generatorID>A06263A4-558C-BA29-25A4-34A1F9D6001C</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B72425C-A83F-0FFC-2FB3-DCD0938D6A36"/>
+<colUsage columnID="986E12FF-91C9-9043-1CD8-075B3599A5C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
