@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="156C4B87-C49B-A146-2628-A8D2EEB6FD26" name="Restoran">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 21:14:22 UTC</createdTime>
+<generatorID>C1022350-6D28-2CF8-3FD4-3EC465862DCA</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdRes" id="20CBB58A-EE15-B865-15EC-8A8153843944">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 21:14:22 UTC</createdTime>
+<generatorID>15367617-E3A6-530A-9BF9-10FCEB0DB2BF</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NazRes" id="955E5812-85C6-E3C9-3223-F75CBF442283">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 21:14:22 UTC</createdTime>
+<generatorID>70692856-FC8C-D61C-5F78-A2D9E11E716B</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PovRes" id="15CA0EF4-F994-6690-2F95-F82CA4DEDB5F">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 21:14:22 UTC</createdTime>
+<generatorID>22E303E1-8F3F-CF57-77F3-0E46BC1DEFF3</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adresa_IdAdr" id="90635AF0-EF47-E2B9-5822-39114D12857A">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 21:14:22 UTC</createdTime>
+<generatorID>14F88416-84AD-D879-8ED5-1BD250934194</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44C222C9-6C2E-8552-8C1E-7EC5044830B1" referredColumn="B981D7C2-34CD-EFC3-9427-17EBC849305F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="500021B4-D404-E638-EAF8-B8C8AF31D897" name="Restoran_PK">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 21:14:22 UTC</createdTime>
+<generatorID>A2F47782-89DF-6C97-3EEA-4C5B6E26C276</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20CBB58A-EE15-B865-15EC-8A8153843944"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4DEF052B-50B3-D970-18F0-486F3EF39A8C" name="Restoran_Adresa_FK">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 21:14:22 UTC</createdTime>
+<generatorID>50151062-22B4-82BF-BA8F-E54EA209A48A</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90635AF0-EF47-E2B9-5822-39114D12857A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

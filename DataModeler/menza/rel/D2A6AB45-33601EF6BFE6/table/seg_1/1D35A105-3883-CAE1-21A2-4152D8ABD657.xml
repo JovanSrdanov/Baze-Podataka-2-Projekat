@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="1D35A105-3883-CAE1-21A2-4152D8ABD657" name="Upravlja">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 21:14:22 UTC</createdTime>
+<generatorID>6E1B3648-B936-6E79-7D7A-8239924B4AAE</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Restoran_IdRes" id="7E1A271B-4852-1268-1A27-A73585079016">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 21:14:22 UTC</createdTime>
+<generatorID>9B410431-0C4C-578A-DFA1-7C188BB61ECC</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4DDFA75-1571-D9DF-DC32-0117F650C993" referredColumn="20CBB58A-EE15-B865-15EC-8A8153843944"/>
+</associations>
+</Column>
+<Column name="Menadzer_IdOsb" id="8ED759EF-2D40-F5E7-DE5E-3D45A6872297">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 21:14:22 UTC</createdTime>
+<generatorID>88536F93-FF61-C5FB-F4B3-815B39E5C3FF</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="96C92D90-006F-EC6B-7F82-D59FD8B5F144" referredColumn="67636F41-19B2-3664-F202-1720995926CF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE1886E2-2838-7BA4-5599-744314CAC316" name="Upravlja_PK">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 21:14:22 UTC</createdTime>
+<generatorID>2946223E-17FA-DBDA-27E4-EAE0E42E4E6E</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E1A271B-4852-1268-1A27-A73585079016"/>
+<colUsage columnID="8ED759EF-2D40-F5E7-DE5E-3D45A6872297"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65095C50-6E4B-2C5E-EC0B-CCBEE78DCF39" name="Upravlja_Restoran_FK">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 21:14:22 UTC</createdTime>
+<generatorID>4FA0A1B7-4021-A1E4-3983-CBF06AD44592</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E1A271B-4852-1268-1A27-A73585079016"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="57A92B0C-4F90-4D32-1897-F15273237403" name="Upravlja_Menadzer_FK">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 21:14:22 UTC</createdTime>
+<generatorID>4FCFA1B7-434C-3B7C-91CD-B14A22530EEF</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8ED759EF-2D40-F5E7-DE5E-3D45A6872297"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

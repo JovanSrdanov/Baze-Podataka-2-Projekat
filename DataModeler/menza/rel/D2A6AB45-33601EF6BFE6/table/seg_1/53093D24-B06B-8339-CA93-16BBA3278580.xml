@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="53093D24-B06B-8339-CA93-16BBA3278580" name="HranaUNar">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 21:14:22 UTC</createdTime>
+<ownerDesignName>menza</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Narudzbina_IdNar" id="36244067-A4CA-7D95-9E7B-83F5D4EE5F10">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 21:14:22 UTC</createdTime>
+<ownerDesignName>menza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D6317A1B-FB4B-60EE-06AB-1BF6472E4EED" referredColumn="682A6965-64F1-8FB7-C513-DB2D8F69F99C"/>
+</associations>
+</Column>
+<Column name="Hrana_IdHran" id="090DDECA-3075-98CF-1A6D-01C84915646D">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 21:14:22 UTC</createdTime>
+<ownerDesignName>menza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F1AA93D-EED8-50D0-5676-893C914E762B" referredColumn="56722932-EEF2-E803-AB4B-035A29E03B15"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6FF5771F-B223-ECEC-DE96-9C9F2C3C8423" name="HranaUNar_PK">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 21:14:22 UTC</createdTime>
+<ownerDesignName>menza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36244067-A4CA-7D95-9E7B-83F5D4EE5F10"/>
+<colUsage columnID="090DDECA-3075-98CF-1A6D-01C84915646D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37210259-9D1E-A093-C601-2BBF22B9373A" name="HranaUNar_Narudzbina_FK">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 21:14:22 UTC</createdTime>
+<generatorID>4CA6617B-C414-834B-9926-53E78CCC3042</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36244067-A4CA-7D95-9E7B-83F5D4EE5F10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C97007F1-E0C3-E66E-0F5D-0D1F56BDC02F" name="HranaUNar_Hrana_FK">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 21:14:22 UTC</createdTime>
+<generatorID>4CA6617B-C414-834B-9926-53E78CCC3042</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="090DDECA-3075-98CF-1A6D-01C84915646D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
