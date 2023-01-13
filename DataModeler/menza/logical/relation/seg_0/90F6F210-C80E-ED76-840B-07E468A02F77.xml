@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Dostavlja" directorySegmentName="seg_0" id="90F6F210-C80E-ED76-840B-07E468A02F77">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 20:23:25 UTC</createdTime>
+<ownerDesignName>menza</ownerDesignName>
+<engineerTo>
+<item key="D2A6AB45-B9F5-FB67-ED2C-33601EF6BFE6" value="true"/>
+</engineerTo>
+<sourcePk>1B0C125B-D526-2D80-2AC1-EFC3E99B7987</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1F1187B8-2E84-5EAF-0D0A-EE394A04A06D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>41E4BA8D-8AA3-F8FD-B996-EDFDB1AAB9A6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

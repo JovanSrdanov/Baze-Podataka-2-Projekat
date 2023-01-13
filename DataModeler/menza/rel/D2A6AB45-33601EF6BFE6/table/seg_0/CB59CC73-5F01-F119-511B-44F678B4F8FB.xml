@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB59CC73-5F01-F119-511B-44F678B4F8FB" name="Adresa">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 19:58:54 UTC</createdTime>
+<generatorID>281FD009-E2BE-77C8-8317-D01BBE2A37AA</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdAdr" id="634A7AD1-66EB-D960-78A2-3D7C7DA833BB">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 19:58:54 UTC</createdTime>
+<generatorID>F42CA598-B0A5-91F6-A207-AD3E9EE258CD</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ulica" id="3420F821-60E0-634D-BA21-219F74647481">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 19:58:54 UTC</createdTime>
+<generatorID>59024717-72BE-274D-E1F5-52968B7CA958</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Broj" id="854080D8-9900-8EA8-BF83-5A300C53E229">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 19:58:54 UTC</createdTime>
+<generatorID>294BC208-5ECF-FCAA-78FA-AF9029D538B7</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Grad_IdGrd" id="42E5BD20-F2BC-CF6C-1A81-95C01125A501">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 19:58:54 UTC</createdTime>
+<generatorID>6F57EEB1-DACE-0F92-F08E-41A8BFB87EB0</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="49D83414-4BB6-73F0-79E0-01159C9F2B94" referredColumn="6DDEE268-C431-DA21-7A51-CC53A4C3D31D"/>
+</associations>
+</Column>
+<Column name="Grad_IdDrz" id="4C42ACE7-6D8C-6475-FDA0-424AD47DCCBC">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 19:58:54 UTC</createdTime>
+<generatorID>62EF1706-739A-253F-DB58-2DAC1E8DB403</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="49D83414-4BB6-73F0-79E0-01159C9F2B94" referredColumn="1B368010-1BB1-096D-A780-7E906E201542"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5F4AB94F-A072-9A40-13A6-9812C86DAEA2" name="Adresa_PK">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 19:58:54 UTC</createdTime>
+<generatorID>1F1CDC93-7628-A4EC-B71C-B08A034CD317</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="634A7AD1-66EB-D960-78A2-3D7C7DA833BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="340B43D0-05D1-9E77-AA23-DC7D8D22005A" name="Adresa_Grad_FK">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 19:58:54 UTC</createdTime>
+<generatorID>B48C5EB1-B15F-AE0B-FDD1-59AC3F11174F</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42E5BD20-F2BC-CF6C-1A81-95C01125A501"/>
+<colUsage columnID="4C42ACE7-6D8C-6475-FDA0-424AD47DCCBC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

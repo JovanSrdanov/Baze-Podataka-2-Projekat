@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="GradAdr" directorySegmentName="seg_0" id="B48C5EB1-B15F-AE0B-FDD1-59AC3F11174F">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 19:01:24 UTC</createdTime>
+<ownerDesignName>menza</ownerDesignName>
+<engineerTo>
+<item key="D2A6AB45-B9F5-FB67-ED2C-33601EF6BFE6" value="true"/>
+</engineerTo>
+<sourcePk>8719630A-772D-2143-F62C-BBA0109BC2DC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AC8A415A-C7B8-EDB2-2B0B-2BD98876AF56</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>281FD009-E2BE-77C8-8317-D01BBE2A37AA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

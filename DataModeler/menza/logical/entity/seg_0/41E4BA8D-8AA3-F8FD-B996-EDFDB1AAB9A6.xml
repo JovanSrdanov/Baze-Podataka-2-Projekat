@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="41E4BA8D-8AA3-F8FD-B996-EDFDB1AAB9A6" name="Narudzbina">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 18:40:28 UTC</createdTime>
+<ownerDesignName>menza</ownerDesignName>
+<engineerTo>
+<item key="D2A6AB45-B9F5-FB67-ED2C-33601EF6BFE6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdNar" id="942E9CF8-9401-C363-9C80-07BFE50A997C">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 19:38:07 UTC</createdTime>
+<ownerDesignName>menza</ownerDesignName>
+<engineerTo>
+<item key="D2A6AB45-B9F5-FB67-ED2C-33601EF6BFE6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DatumZaKad" id="62017AFB-43C1-3450-056E-83B8275EC5A9">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 19:38:06 UTC</createdTime>
+<ownerDesignName>menza</ownerDesignName>
+<engineerTo>
+<item key="D2A6AB45-B9F5-FB67-ED2C-33601EF6BFE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdDos" id="8F437AE3-B40C-39FD-8FFB-81251AD59F36">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 20:23:25 UTC</createdTime>
+<generatorID>90F6F210-C80E-ED76-840B-07E468A02F77</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<engineerTo>
+<item key="D2A6AB45-B9F5-FB67-ED2C-33601EF6BFE6" value="true"/>
+</engineerTo>
+<referedAttribute>10ADE80B-C426-9290-32B6-7560E01697FE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdRes" id="A05BE8DB-7065-3A9B-4298-7215AF4B7307">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 20:40:25 UTC</createdTime>
+<generatorID>A06263A4-558C-BA29-25A4-34A1F9D6001C</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<engineerTo>
+<item key="D2A6AB45-B9F5-FB67-ED2C-33601EF6BFE6" value="true"/>
+</engineerTo>
+<referedAttribute>9B410431-0C4C-578A-DFA1-7C188BB61ECC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdOsb" id="B6FE1792-69DE-38F9-AE58-2CDE436C9712">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 20:40:25 UTC</createdTime>
+<generatorID>A06263A4-558C-BA29-25A4-34A1F9D6001C</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<engineerTo>
+<item key="D2A6AB45-B9F5-FB67-ED2C-33601EF6BFE6" value="true"/>
+</engineerTo>
+<referedAttribute>88536F93-FF61-C5FB-F4B3-815B39E5C3FF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="895C0C26-D7BF-E3A4-2B78-CB8441838D55" name="Narudzbina PK">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 19:38:13 UTC</createdTime>
+<ownerDesignName>menza</ownerDesignName>
+<engineerTo>
+<item key="D2A6AB45-B9F5-FB67-ED2C-33601EF6BFE6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>942E9CF8-9401-C363-9C80-07BFE50A997C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

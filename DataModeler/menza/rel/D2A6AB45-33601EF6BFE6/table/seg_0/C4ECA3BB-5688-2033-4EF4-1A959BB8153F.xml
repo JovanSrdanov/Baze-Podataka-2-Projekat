@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C4ECA3BB-5688-2033-4EF4-1A959BB8153F" name="Portir">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 19:58:54 UTC</createdTime>
+<generatorID>E6475E3A-AB59-341D-ACEB-7813C3844C91</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdOsb" id="F454BFFE-D5B8-904A-3BB8-9F62905407A7">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 19:58:54 UTC</createdTime>
+<generatorID>08301F34-134A-1C31-45F6-E3FD68E4462F</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A82D72B4-F173-7CDA-BACC-51FF897E751A" referredColumn="997C7D92-926D-CB56-AC68-092E495A80E3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4F01203F-DF3A-9103-230C-7FEBF06265AE" name="Portir_PK">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 19:58:54 UTC</createdTime>
+<generatorID>A7674950-9E60-02E8-681E-99033CF40A11</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F454BFFE-D5B8-904A-3BB8-9F62905407A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B4F0F09-C223-4D07-2D2E-9CED18C04040" name="Portir_Osoba_FK">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 19:58:54 UTC</createdTime>
+<generatorID>269C5B17-ECE7-47B4-DE6A-41EA87365CEA</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F454BFFE-D5B8-904A-3BB8-9F62905407A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="StudiraNa" directorySegmentName="seg_0" id="5A7073A5-257D-9DDE-98CD-1CF6370601B2">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 19:57:00 UTC</createdTime>
+<ownerDesignName>menza</ownerDesignName>
+<engineerTo>
+<item key="D2A6AB45-B9F5-FB67-ED2C-33601EF6BFE6" value="true"/>
+</engineerTo>
+<sourcePk>995FE6A5-FAB5-66E1-18E3-C46B6161CEF3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E280B364-22CA-2A92-C7AB-18D0A3609DA4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AD1E4492-2204-6383-A17E-B703B1A77C1B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

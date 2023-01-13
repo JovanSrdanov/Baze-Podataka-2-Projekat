@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7D9DA29E-F39E-E1FF-BFEA-CF5A41ACE01F" name="Drzava">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F9074919-7322-CD80-84A2-50C78F47F69B" name="Kuvar">
 <createdBy>Jana Jovan</createdBy>
-<createdTime>2023-01-13 11:37:21 UTC</createdTime>
+<createdTime>2023-01-13 19:53:03 UTC</createdTime>
 <ownerDesignName>menza</ownerDesignName>
 <engineerTo>
 <item key="D2A6AB45-B9F5-FB67-ED2C-33601EF6BFE6" value="true"/>
@@ -11,63 +11,67 @@
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
 <growthPercent>0</growthPercent>
 <growthType>Year</growthType>
+<hierarchicalParent>BF3D09A5-4F33-AACD-C1C0-087A489C56C3</hierarchicalParent>
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="IdDrz" id="A8D823AE-07DF-B3B4-9EEA-B9B5B9BDD470">
+<Attribute name="Plata" id="9D5156AA-EBEE-C833-0435-CCF498F07583">
 <createdBy>Jana Jovan</createdBy>
-<createdTime>2023-01-13 11:37:53 UTC</createdTime>
+<createdTime>2023-01-13 20:09:04 UTC</createdTime>
 <ownerDesignName>menza</ownerDesignName>
 <engineerTo>
 <item key="D2A6AB45-B9F5-FB67-ED2C-33601EF6BFE6" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NazDrz" id="3434684B-F7E7-2934-CF95-CBC73C8BB824">
+<Attribute name="IdTipKuv" id="32DBA457-5278-8F74-89AD-461B1429CB46">
 <createdBy>Jana Jovan</createdBy>
-<createdTime>2023-01-13 11:37:54 UTC</createdTime>
+<createdTime>2023-01-13 20:10:25 UTC</createdTime>
+<generatorID>3594EF9E-B8BC-1A35-CC40-59AA5F53A98E</generatorID>
 <ownerDesignName>menza</ownerDesignName>
 <engineerTo>
 <item key="D2A6AB45-B9F5-FB67-ED2C-33601EF6BFE6" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>CE8E3627-8DB7-258B-2661-A795889901F6</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PozDrz" id="88827371-A678-236E-B0BD-08C88188CCC2">
+<Attribute name="IdOsb" id="AF3DE801-E0FA-FA0E-532E-745C5915B74E">
 <createdBy>Jana Jovan</createdBy>
-<createdTime>2023-01-13 11:37:54 UTC</createdTime>
+<createdTime>2023-01-13 20:12:50 UTC</createdTime>
+<generatorID>C69563B8-6D88-B12B-377C-602B5AB65C6E</generatorID>
 <ownerDesignName>menza</ownerDesignName>
 <engineerTo>
 <item key="D2A6AB45-B9F5-FB67-ED2C-33601EF6BFE6" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
+<referedAttribute>08301F34-134A-1C31-45F6-E3FD68E4462F</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdRes" id="C769FD53-E015-9321-C981-C1BB2497EA41">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 20:18:14 UTC</createdTime>
+<generatorID>243E2F8D-70F8-96D6-0833-C6D25AECAF6A</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<engineerTo>
+<item key="D2A6AB45-B9F5-FB67-ED2C-33601EF6BFE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>15367617-E3A6-530A-9BF9-10FCEB0DB2BF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="C6C3F4EF-2CC2-1C2C-9681-F0BA3878800E" name="Drzava PK">
-<createdBy>Jana Jovan</createdBy>
-<createdTime>2023-01-13 11:37:55 UTC</createdTime>
-<ownerDesignName>menza</ownerDesignName>
-<engineerTo>
-<item key="D2A6AB45-B9F5-FB67-ED2C-33601EF6BFE6" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>A8D823AE-07DF-B3B4-9EEA-B9B5B9BDD470</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
 </Entity>

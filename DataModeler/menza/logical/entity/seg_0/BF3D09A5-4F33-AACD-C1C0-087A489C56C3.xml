@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BF3D09A5-4F33-AACD-C1C0-087A489C56C3" name="Osoba">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 18:37:35 UTC</createdTime>
+<ownerDesignName>menza</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D2A6AB45-B9F5-FB67-ED2C-33601EF6BFE6" value="false"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributeInherType>All atributes</attributeInherType>
+<generateDiscrimColumn>true</generateDiscrimColumn>
+<discriminatorAttributeID>34C94740-7C44-7994-BDA0-1E40B6D4D52E</discriminatorAttributeID>
+<completeSubtypes>true</completeSubtypes>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdOsb" id="08301F34-134A-1C31-45F6-E3FD68E4462F">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 19:42:20 UTC</createdTime>
+<ownerDesignName>menza</ownerDesignName>
+<engineerTo>
+<item key="D2A6AB45-B9F5-FB67-ED2C-33601EF6BFE6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ime" id="C73956E4-1072-2492-4111-E0A7C0379DE6">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 19:42:20 UTC</createdTime>
+<ownerDesignName>menza</ownerDesignName>
+<engineerTo>
+<item key="D2A6AB45-B9F5-FB67-ED2C-33601EF6BFE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Prz" id="BEEF77CC-27F6-A249-46BB-3E7C8AC767ED">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 19:42:27 UTC</createdTime>
+<ownerDesignName>menza</ownerDesignName>
+<engineerTo>
+<item key="D2A6AB45-B9F5-FB67-ED2C-33601EF6BFE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="JMBG" id="7A339749-64C1-AF73-14ED-5079B38D0FA5">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 19:42:28 UTC</createdTime>
+<ownerDesignName>menza</ownerDesignName>
+<engineerTo>
+<item key="D2A6AB45-B9F5-FB67-ED2C-33601EF6BFE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13 CHAR</dataTypeSize>
+<ownDataTypeParameters>13 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DatRodj" id="9B2C8144-3C91-8E7F-E874-275794C54B07">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 19:42:29 UTC</createdTime>
+<ownerDesignName>menza</ownerDesignName>
+<engineerTo>
+<item key="D2A6AB45-B9F5-FB67-ED2C-33601EF6BFE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TipOsobe" id="34C94740-7C44-7994-BDA0-1E40B6D4D52E">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 19:42:34 UTC</createdTime>
+<ownerDesignName>menza</ownerDesignName>
+<engineerTo>
+<item key="D2A6AB45-B9F5-FB67-ED2C-33601EF6BFE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8093CB40-D89B-A563-82FE-3360CAA412D2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdAdr" id="AE474C2E-FC3B-131F-01B9-73CC2376F0EC">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 19:20:42 UTC</createdTime>
+<generatorID>1F259940-A17F-1AC3-30CE-D74FC1EE6A46</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<engineerTo>
+<item key="D2A6AB45-B9F5-FB67-ED2C-33601EF6BFE6" value="true"/>
+</engineerTo>
+<referedAttribute>F42CA598-B0A5-91F6-A207-AD3E9EE258CD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A7674950-9E60-02E8-681E-99033CF40A11" name="Osoba PK">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 19:42:49 UTC</createdTime>
+<ownerDesignName>menza</ownerDesignName>
+<engineerTo>
+<item key="D2A6AB45-B9F5-FB67-ED2C-33601EF6BFE6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>08301F34-134A-1C31-45F6-E3FD68E4462F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
