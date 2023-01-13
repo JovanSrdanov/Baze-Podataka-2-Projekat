@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="777F0A50-CA10-A614-3606-2F8EFD4E0354" containerWithKeyObject="B296E43E-AFA8-7D65-379C-1758E45251EA" localFKIndex="02E45F94-F556-F404-1A39-DB373EE660AA" name="Kuvar_Restoran_FK">
+<createdBy>Jana Jovan</createdBy>
+<createdTime>2023-01-13 21:30:30 UTC</createdTime>
+<generatorID>243E2F8D-70F8-96D6-0833-C6D25AECAF6A</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<referredTableLongName>Restoran</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B6A9E7A8-0691-243E-3882-5C661D9CB299</referredTableID>
+<keyObject>A073ECE5-4B6E-0846-D769-66C334ABBECC</keyObject>
+<referredKeyID>A073ECE5-4B6E-0846-D769-66C334ABBECC</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>IdRes</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
