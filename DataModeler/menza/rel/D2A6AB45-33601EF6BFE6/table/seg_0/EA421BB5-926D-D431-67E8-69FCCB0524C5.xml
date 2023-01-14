@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EA421BB5-926D-D431-67E8-69FCCB0524C5" name="Portir">
+<createdBy>JovanSrdanov</createdBy>
+<createdTime>2023-01-14 11:03:52 UTC</createdTime>
+<generatorID>E6475E3A-AB59-341D-ACEB-7813C3844C91</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdOsb" id="8CBC0418-0312-B7AF-855A-2B256E51A535">
+<createdBy>JovanSrdanov</createdBy>
+<createdTime>2023-01-14 11:03:52 UTC</createdTime>
+<generatorID>08301F34-134A-1C31-45F6-E3FD68E4462F</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ime" id="95408867-429B-4FC5-B422-9E6023482322">
+<createdBy>JovanSrdanov</createdBy>
+<createdTime>2023-01-14 11:03:52 UTC</createdTime>
+<generatorID>C73956E4-1072-2492-4111-E0A7C0379DE6</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prz" id="80B4CB86-CC1E-8612-A280-7497CDE0D49A">
+<createdBy>JovanSrdanov</createdBy>
+<createdTime>2023-01-14 11:03:52 UTC</createdTime>
+<generatorID>BEEF77CC-27F6-A249-46BB-3E7C8AC767ED</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JMBG" id="2B3CBA2C-07FB-A310-4E91-E839D1CF89E8">
+<createdBy>JovanSrdanov</createdBy>
+<createdTime>2023-01-14 11:03:52 UTC</createdTime>
+<generatorID>7A339749-64C1-AF73-14ED-5079B38D0FA5</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13 CHAR</dataTypeSize>
+<ownDataTypeParameters>13 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DatRodj" id="67916309-EA8F-5E95-07A9-58B980485FB0">
+<createdBy>JovanSrdanov</createdBy>
+<createdTime>2023-01-14 11:03:52 UTC</createdTime>
+<generatorID>9B2C8144-3C91-8E7F-E874-275794C54B07</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adresa_IdAdr" id="52244FD0-63C2-5EBA-4DC5-D5FC63220ABE">
+<createdBy>JovanSrdanov</createdBy>
+<createdTime>2023-01-14 11:03:52 UTC</createdTime>
+<generatorID>AE474C2E-FC3B-131F-01B9-73CC2376F0EC</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B4208EB-5A0A-02C2-F996-38092BC6CCFE" referredColumn="0FD25ABB-1A53-E057-BCCA-CECD10D02D5E"/>
+</associations>
+</Column>
+<Column name="BrLic" id="3F51DF6C-577A-C5FD-A837-79E101635CE9">
+<createdBy>JovanSrdanov</createdBy>
+<createdTime>2023-01-14 11:03:52 UTC</createdTime>
+<generatorID>6FD9B9CE-3737-0A06-D131-509AA2BAC090</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Restoran_IdRes" id="89437A75-21B9-FD51-50FD-6A892310B083">
+<createdBy>JovanSrdanov</createdBy>
+<createdTime>2023-01-14 11:03:52 UTC</createdTime>
+<generatorID>94BB61B4-A639-E578-C993-9D17F13E3BCA</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D9590EA3-D34E-B061-D381-81CB821403F6" referredColumn="46D74535-B0A8-2FBE-2B75-0A08425AE24C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0EC1C318-5D73-F18B-DAE8-0CC0F1DF33C0" name="Portir_PK">
+<createdBy>JovanSrdanov</createdBy>
+<createdTime>2023-01-14 11:03:52 UTC</createdTime>
+<generatorID>A7674950-9E60-02E8-681E-99033CF40A11</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CBC0418-0312-B7AF-855A-2B256E51A535"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="144AE426-8DDB-6E55-D832-5DD3AF70D5AD" name="Portir_Restoran_FK">
+<createdBy>JovanSrdanov</createdBy>
+<createdTime>2023-01-14 11:03:52 UTC</createdTime>
+<generatorID>58E291B2-694F-3940-D40B-BBA4C2B8A157</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89437A75-21B9-FD51-50FD-6A892310B083"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A8E8670-BD1D-1756-2D4D-A4C5B530E8A7" name="Portir_Adresa_FK">
+<createdBy>JovanSrdanov</createdBy>
+<createdTime>2023-01-14 11:03:52 UTC</createdTime>
+<generatorID>1F259940-A17F-1AC3-30CE-D74FC1EE6A46</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52244FD0-63C2-5EBA-4DC5-D5FC63220ABE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

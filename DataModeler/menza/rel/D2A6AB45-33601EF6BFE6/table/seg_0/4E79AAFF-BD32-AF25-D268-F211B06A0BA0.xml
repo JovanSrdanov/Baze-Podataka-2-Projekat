@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4E79AAFF-BD32-AF25-D268-F211B06A0BA0" name="Drzava">
+<createdBy>JovanSrdanov</createdBy>
+<createdTime>2023-01-14 11:03:52 UTC</createdTime>
+<generatorID>7D9DA29E-F39E-E1FF-BFEA-CF5A41ACE01F</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdDrz" id="848E4123-1B07-328F-01CA-87283313D5F2">
+<createdBy>JovanSrdanov</createdBy>
+<createdTime>2023-01-14 11:03:52 UTC</createdTime>
+<generatorID>A8D823AE-07DF-B3B4-9EEA-B9B5B9BDD470</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NazDrz" id="D5D12026-6D26-CA0F-1215-DDE8C7E63E20">
+<createdBy>JovanSrdanov</createdBy>
+<createdTime>2023-01-14 11:03:52 UTC</createdTime>
+<generatorID>3434684B-F7E7-2934-CF95-CBC73C8BB824</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PozDrz" id="7390A96A-BCE5-0F1F-5516-B80C3207D775">
+<createdBy>JovanSrdanov</createdBy>
+<createdTime>2023-01-14 11:03:52 UTC</createdTime>
+<generatorID>88827371-A678-236E-B0BD-08C88188CCC2</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="79E5964C-4072-A587-00DE-34C26E2355B6" name="Drzava_PK">
+<createdBy>JovanSrdanov</createdBy>
+<createdTime>2023-01-14 11:03:52 UTC</createdTime>
+<generatorID>C6C3F4EF-2CC2-1C2C-9681-F0BA3878800E</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="848E4123-1B07-328F-01CA-87283313D5F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

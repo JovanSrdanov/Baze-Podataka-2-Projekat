@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7D125D1-D806-1FF0-D4D9-5B35128F3A2C" name="Fakultet">
+<createdBy>JovanSrdanov</createdBy>
+<createdTime>2023-01-14 11:03:52 UTC</createdTime>
+<generatorID>E280B364-22CA-2A92-C7AB-18D0A3609DA4</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdFak" id="CBFE7B63-E175-E8E1-F8A8-E320CAD3EB08">
+<createdBy>JovanSrdanov</createdBy>
+<createdTime>2023-01-14 11:03:52 UTC</createdTime>
+<generatorID>E1F8FD64-2A4F-0B09-BDE5-84A632D719E3</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NazFak" id="759C01A5-9343-F8E3-C18F-C33B545ADF42">
+<createdBy>JovanSrdanov</createdBy>
+<createdTime>2023-01-14 11:03:52 UTC</createdTime>
+<generatorID>927BAB94-2FD6-9CCA-F491-92B0B691512B</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adresa_IdAdr" id="E5815C25-81AF-F997-EF61-AC61934A9B6D">
+<createdBy>JovanSrdanov</createdBy>
+<createdTime>2023-01-14 11:03:52 UTC</createdTime>
+<generatorID>68352D61-BC9A-3010-5AA9-B1C4A84B4B2C</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F6F8D46-92A3-C07C-8D02-AC9E60523449" referredColumn="0FD25ABB-1A53-E057-BCCA-CECD10D02D5E"/>
+</associations>
+</Column>
+<Column name="Univerzitet_IdUni" id="41929EB8-DB8F-412D-AAA1-18299B1F21F0">
+<createdBy>JovanSrdanov</createdBy>
+<createdTime>2023-01-14 11:03:52 UTC</createdTime>
+<generatorID>7C008128-0FEC-5116-5F5F-DCD59E521F53</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9B84F06-7472-2D99-96A1-1153913BBE6A" referredColumn="3361D9F1-743D-263D-9F43-CE022560944B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="666CA448-9333-AA1A-07B3-646862AD4F28" name="Fakultet_PK">
+<createdBy>JovanSrdanov</createdBy>
+<createdTime>2023-01-14 11:03:52 UTC</createdTime>
+<generatorID>995FE6A5-FAB5-66E1-18E3-C46B6161CEF3</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBFE7B63-E175-E8E1-F8A8-E320CAD3EB08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4871E024-2DB6-1472-ED0E-030F599DC888" name="Fakultet_Adresa_FK">
+<createdBy>JovanSrdanov</createdBy>
+<createdTime>2023-01-14 11:03:52 UTC</createdTime>
+<generatorID>9F1AF0D7-4C08-3953-F197-3E4B151B699D</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5815C25-81AF-F997-EF61-AC61934A9B6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="548E57D2-4522-7662-0440-4D6E07B9CAF7" name="Fakultet_Univerzitet_FK">
+<createdBy>JovanSrdanov</createdBy>
+<createdTime>2023-01-14 11:03:52 UTC</createdTime>
+<generatorID>F711C474-E5E3-AFBE-3FB9-435B87E84CDE</generatorID>
+<ownerDesignName>menza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41929EB8-DB8F-412D-AAA1-18299B1F21F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
