@@ -123,9 +123,9 @@ begin
 	-- Studenti
 	insert into student values (1,'Jovan','Srdanov','1236667653823','1-NOV-2000',1,'RA 145 2019',1);
 	insert into student values (2,'Jovana','Tot','1236667653823','5-NOV-2000',1,'RA 125 2019',1);
-	insert into student values (3,'Mihaela','Holjevac','1236667653823','6-NOV-2000',1,'RA 611 2019',1);
+	insert into student values (3,'Mihaela','Holjevac','1236667653823','6-NOV-2000',1,'RA 611 2019',10);
 	insert into student values (4,'Ivan','Milin','1236667653823','1-NOV-2000',1,'RA 14 2019',1);
-	insert into student values (5,'Strahinja','Erakovic','1236667653823','1-NOV-1999',1,'RA 145 2018',1);
+	insert into student values (5,'Strahinja','Erakovic','1236667653823','1-NOV-1999',1,'RA 145 2018',10);
 	insert into student values (6,'Biljana','Popov','1236667653823','1-NOV-2000',1,'RA 25 2019',2);
 	insert into student values (7,'Dragoslava','Kovacevic','1236667653823','1-NOV-2000',1,'RA 5 2019',4);
 	insert into student values (8,'Gordana','Karavidin','1236667653823','1-NOV-2000',1,'RA 143 2019',5);
