@@ -141,7 +141,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="87B03934-12A9-8E04-C6E1-0E77F57EA381" referredColumn="46D74535-B0A8-2FBE-2B75-0A08425AE24C"/>
+<colAssociation fkAssociation="DD02C765-78B4-42B4-3424-A41235AB2FA6" referredColumn="46D74535-B0A8-2FBE-2B75-0A08425AE24C"/>
 </associations>
 </Column>
 </columns>
@@ -191,9 +191,9 @@
 <colUsage columnID="4836B767-5C42-0380-9E3D-A1652558A9B6"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="57DB108F-229A-217C-8A9B-5D78F94744FD" name="Kuvar_Restoran_FK">
+<ind_PK_UK id="3F1721BD-95D3-9E5D-B4AB-031557580F5E" name="Kuvar_Restoran_FK">
 <createdBy>JovanSrdanov</createdBy>
-<createdTime>2023-01-14 11:05:18 UTC</createdTime>
+<createdTime>2023-01-14 11:13:49 UTC</createdTime>
 <generatorID>243E2F8D-70F8-96D6-0833-C6D25AECAF6A</generatorID>
 <ownerDesignName>menza</ownerDesignName>
 <indexState>Foreign Key</indexState>

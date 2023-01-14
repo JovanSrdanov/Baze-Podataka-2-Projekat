@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E6A5AA23-555B-3C5F-BB8F-2E6AB854C080" name="StundetskaKartica">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E6A5AA23-555B-3C5F-BB8F-2E6AB854C080" name="StudentskaKartica">
 <createdBy>Jana Jovan</createdBy>
 <createdTime>2023-01-13 18:37:58 UTC</createdTime>
 <ownerDesignName>menza</ownerDesignName>
