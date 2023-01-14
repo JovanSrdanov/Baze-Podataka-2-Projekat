@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DD02C765-78B4-42B4-3424-A41235AB2FA6" containerWithKeyObject="40A7B373-DBFD-DF10-590C-51C5FF61486C" localFKIndex="3F1721BD-95D3-9E5D-B4AB-031557580F5E" name="Kuvar_Restoran_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C8214B95-F8CC-3951-72CC-5F1EC9B09542" containerWithKeyObject="40A7B373-DBFD-DF10-590C-51C5FF61486C" localFKIndex="C0295B1D-6BE5-577D-7914-2B818B77ACE7" name="Kuvar_Restoran_FK">
 <createdBy>JovanSrdanov</createdBy>
-<createdTime>2023-01-14 11:13:49 UTC</createdTime>
+<createdTime>2023-01-14 13:17:50 UTC</createdTime>
 <generatorID>243E2F8D-70F8-96D6-0833-C6D25AECAF6A</generatorID>
 <ownerDesignName>menza</ownerDesignName>
 <referredTableLongName>Restoran</referredTableLongName>

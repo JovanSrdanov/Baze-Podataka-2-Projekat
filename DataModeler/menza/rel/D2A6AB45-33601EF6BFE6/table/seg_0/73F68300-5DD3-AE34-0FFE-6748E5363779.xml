@@ -131,7 +131,7 @@
 <colUsage columnID="06AC8C3D-AD92-A569-8843-B5DFF103F75F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="95C39CFC-7FCD-322B-A6E8-472A599341AE" name="StundetskaKartica_Student_FK">
+<ind_PK_UK id="95C39CFC-7FCD-322B-A6E8-472A599341AE" name="StudentskaKartica_Student_FK">
 <createdBy>JovanSrdanov</createdBy>
 <createdTime>2023-01-14 11:03:52 UTC</createdTime>
 <generatorID>A091C325-FC40-7BC3-118C-2494A85EE57A</generatorID>

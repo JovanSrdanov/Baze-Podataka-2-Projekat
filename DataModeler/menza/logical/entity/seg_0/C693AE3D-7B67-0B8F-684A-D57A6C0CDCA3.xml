@@ -37,8 +37,9 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="KolHran" id="9644A61F-C217-F854-FD23-1335C744E104">
 <createdBy>Jana Jovan</createdBy>
@@ -59,8 +60,9 @@
 <createdBy>Jana Jovan</createdBy>
 <createdTime>2023-01-13 19:37:24 UTC</createdTime>
 <ownerDesignName>menza</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="D2A6AB45-B9F5-FB67-ED2C-33601EF6BFE6" value="true"/>
+<item key="D2A6AB45-B9F5-FB67-ED2C-33601EF6BFE6" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
